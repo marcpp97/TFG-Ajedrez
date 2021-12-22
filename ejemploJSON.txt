@@ -1,0 +1,99 @@
+{
+  "query": "Peón a dos, a 4.",
+  "prediction": {
+    "topIntent": "Orden",
+    "intents": {
+      "Orden": {
+        "score": 0.9778805
+      },
+      "None": {
+        "score": 0.014379757
+      }
+    },
+    "entities": {
+
+      "x": [["a"],["a"]],
+
+      "Posicion": ["a dos","a 4"],
+
+      "y": [["2"],["4"]],
+
+      "$instance": {
+        "x": [
+          {
+            "type": "x",
+            "text": "a",
+            "startIndex": 5,
+            "length": 1,
+            "modelTypeId": 5,
+            "modelType": "List Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          },
+          {
+            "type": "x",
+            "text": "a",
+            "startIndex": 12,
+            "length": 1,
+            "modelTypeId": 5,
+            "modelType": "List Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          }
+        ],
+        "Posicion": [
+          {
+            "type": "Posicion",
+            "text": "a dos",
+            "startIndex": 5,
+            "length": 5,
+            "score": 0.98215336,
+            "modelTypeId": 1,
+            "modelType": "Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          },
+          {
+            "type": "Posicion",
+            "text": "a 4",
+            "startIndex": 12,
+            "length": 3,
+            "score": 0.94518095,
+            "modelTypeId": 1,
+            "modelType": "Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          }
+        ],
+        "y": [
+          {
+            "type": "y",
+            "text": "dos",
+            "startIndex": 7,
+            "length": 3,
+            "modelTypeId": 5,
+            "modelType": "List Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          },
+          {
+            "type": "y",
+            "text": "4",
+            "startIndex": 14,
+            "length": 1,
+            "modelTypeId": 5,
+            "modelType": "List Entity Extractor",
+            "recognitionSources": [
+              "model"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

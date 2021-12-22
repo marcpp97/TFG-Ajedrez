@@ -1,0 +1,9 @@
+{"query":"e 3 d4",
+"prediction":{
+	"topIntent":"Orden",
+	"intents":{"Orden":{"score":0.8866945},"None":{"score":0.078921854}},
+	"entities":{
+		"x":[["e"]],
+		"y":[["3"]],
+		"Posicion":["d4"],
+		"$instance":{"x":[{"type":"x","text":"e","startIndex":0,"length":1,"modelTypeId":5,"modelType":"List Entity Extractor","recognitionSources":["model"]}],"y":[{"type":"y","text":"3","startIndex":2,"length":1,"modelTypeId":5,"modelType":"List Entity Extractor","recognitionSources":["model"]}],"Posicion":[{"type":"Posicion","text":"d4","startIndex":4,"length":2,"score":0.9883353,"modelTypeId":1,"modelType":"Entity Extractor","recognitionSources":["model"]}]}}}}
